@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de registros de Pedidos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(123, 229, 255);
+            padding: 10px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(212, 70, 255);
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: rgb(154, 206, 255);
+            padding: 50px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 77%;
+            background-color: #fc77c0;
+            height: 300px;
+            text-align:left;
+            font-size: 27px;
+            color: rgb(249, 251, 255);
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(67, 202, 243);
+            padding: 100px;
+            text-align: center;
+            color: rgb(26, 50, 102);
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+     <h2>Tabla registros de Pedidos</h2>
+    </header>
+
+    <section>
+     <img src="https://export-download.canva.com/dgcqY/DAE6RjdgcqY/22/0/0001-20612053665.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220306T121349Z&X-Amz-Expires=72905&X-Amz-Signature=9f8e9701ea9c40c061fae4bc0269fad1027b37e1916cd1643ff6cda27d74638d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27pastelienigena.png&response-expires=Mon%2C%2007%20Mar%202022%2008%3A28%3A54%20GMT" 
+     width="300px" height="300px" align="left"> 
+        <article>
+            <h1>Eige la combinación de tu preferencia</h1>
+            <p>Tenemos para ti diveras decoraciones, sabores y adornos con una gran variedad pasteles, postres y panadería. Entre otras cosas, elaboramos tartas, croissants, pasteles de cumpleaños, pasteles de fondant, pasteles para boda, cupcakes, panqués y helados. Poniendo a tu disposición la creacion de tu Pasteligena que se te antoje.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Datos de solicitante y encargos.</p>
+
+        <hr>
+
+    <h2>Registro de pedidos</h2><br>
+
+    <table>
+        <caption>Tabla de contenido</caption>
+        <colgroup>
+          <col span="1" style="background-color:rgb(246, 255, 124)">
+          <col span="2" style="background-color:rgb(247, 174, 92)">
+          <col span="3" style="background-color:rgb(97, 247, 92)">
+        </colgroup>
+        <tr>
+          <th>No. de pedido</th>
+          <th>Nombre</th> 
+          <th>Correo eléctronico</th>
+          <th>No. telefonico</th>
+          <th>Password</th>
+          <th>Datos de pedido solicitado</th>
+        </tr>
+        <tr>
+          <td>001/2022</td>
+          <td>Linda Yuliana Hernandez Juarez</td>
+          <td>lindayuliana@gmail.com</td>
+          <td>9612257854</td>
+          <td>ly301195</td>
+          <td>Pastel piña coco con frutos rojos y chispas de chocolate</td>
+        </tr>
+        <tr>
+            <td>002/2022</td>
+            <td>Mariana Zepeda Ruiz</td>
+            <td>mzr019211@gmail.com</td>
+            <td>9634485968</td>
+            <td>mz015981</td>
+            <td>Pastel de fresa, brillantina, diseño personalizado de pasta de azucar</td>
+        </tr>
+        <tr>
+            <td>003/2022</td>
+            <td>Santiago Moreno Muñoz</td>
+            <td>santi0012@gmail.com</td>
+            <td>9635562389</td>
+            <td>sm45se56</td>
+            <td>Pastel de chocolate con queso, diseño especial pasta de azucar</td>
+        </tr>
+      </table><br><br>
+
+    <hr>
+
+    <footer>
+        <p>Datos de registro de materiales CHEF.</p>
+
+        <hr>
+
+    <h2>Registro de materiales en existencia</h2><br>
+
+    <table>
+        <colgroup>
+          <col span="1" style="background-color:rgb(124, 137, 255)">
+          <col span="2" style="background-color:rgb(255, 124, 227)">
+          <col span="3" style="background-color:rgb(247, 92, 92)">
+        
+        </colgroup>
+        <tr>
+          <th>Información Sabores</th>
+          <th>cantidad kg</th> 
+          <th>En existencia</th> 
+          <th>Información decoración</th>
+          <th>cantadad kg</th>
+          <th>En existencia </th>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>50</td>
+          <td>Medio</td>
+          <td>Confeti comestible</td>
+          <td>80</td>
+          <td>Medio</td>
+        </tr>
+        <tr>
+            <td>Fresa</td>
+            <td>20</td>
+            <td>Bajo</td>
+            <td>Perlas</td>
+            <td>96</td>
+            <td>Alto</td>
+        </tr>
+        <tr>
+            <td>Queso</td>
+            <td>80</td>
+            <td>Alto</td>
+            <td>Diamantina comestible</td>
+            <td>89</td>
+            <td>Alto</td>
+        </tr>
+        <tr>
+            <td>Piña coco</td>
+            <td>85</td>
+            <td>Alto</td>
+            <td>Chispas Sprinkles de colores</td>
+            <td>23</td>
+            <td>Bajo</td>
+        </tr>
+      </table><br><br>
+
+    <hr>
+
+</body>
+
+</html>

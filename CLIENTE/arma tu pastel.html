@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arma tu pastel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(174, 56, 179);
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Lucida Sans Unicode';
+            color: rgb(115, 227, 255);         
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: right;
+            width: 100%;
+            height: 70px;
+            /* only for demonstration, should be removed */
+            background: rgb(255, 104, 162);
+            font-family: 'Lucida Sans Unicode';
+            text-align: center;
+            padding: 25px;
+            color: white;
+        }
+
+        article {
+            float: center;
+            width: 100%;
+            height: 100%;
+            background-color: hsl(303, 100%, 67%);
+            font-family: 'Lucida Sans Unicode';
+            padding: 20px;      
+            color: rgb(81, 249, 255);
+            font-size: 28px;
+        }        
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            color: rgb(30, 154, 163);
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer background-color: #777; */
+        footer {
+            
+            background: rgb(255, 104, 174);
+            padding: 10px;
+            text-align: center;
+            color: rgb(240, 240, 240);
+            font-family: 'Lucida Sans Unicode';
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+      
+            <img src="https://export-download.canva.com/dgcqY/DAE6RjdgcqY/22/0/0001-20612053665.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220306T121349Z&X-Amz-Expires=72905&X-Amz-Signature=9f8e9701ea9c40c061fae4bc0269fad1027b37e1916cd1643ff6cda27d74638d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27pastelienigena.png&response-expires=Mon%2C%2007%20Mar%202022%2008%3A28%3A54%20GMT"
+            width="300px" height="200px align="right">
+            <p>Los pasteles son especiales. Cada cumpleaños, cada celebración termina con algo dulce y recordable.</p>
+     
+    </header>
+    <section >
+        <nav >
+            <ul>
+                <a href="#" target="blank">Inicio</a> |
+                <a href="#">Catálogo</a>  |
+                <a href="#">Arma tu pastel</a>    |
+                <a href="#">Materiales</a>  |   
+                <a href="#">Pedidos</a>  |         
+            </ul>
+        </nav>
+    </section>
+    <section>       
+        <article>
+            <h2>Materiales</h2>  
+        <h1>Sabores disponibles</h1>
+     
+          <br>
+         <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+         <label for="topping1">Chocolate</label><br>
+         <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+         <label for="topping2">Fresa</label><br>
+         <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+         <label for="topping3">Queso</label><br>
+         <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+         <label for="topping1">Piña Coco</label><br>
+         <hr>
+         <img src="https://export-download.canva.com/g8cq4/DAE6vNg8cq4/43/0/0001-21085037339.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220311T180134Z&X-Amz-Expires=44514&X-Amz-Signature=4e6993a7adfdeaf3cf03fae85068be8333e7af265c3a4daaf6301a6ea0857996&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Dise%25C3%25B1o%2520sin%2520t%25C3%25ADtulo.png&response-expires=Sat%2C%2012%20Mar%202022%2006%3A23%3A28%20GMT"  
+         width="1300px" height="500px align="right">
+         <h1>Adornos disponibles</h1>
+         <br>
+         <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+         <label for="topping1">Confeti comestible</label><br>
+         <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+         <label for="topping2">Perlas </label><br>
+         <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+         <label for="topping3">Diamantina comestible</label><br>
+         <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+         <label for="topping1">Chispas Sprinkles de colores</label><br>
+         <hr>
+         
+         <img src="https://export-download.canva.com/wnq6g/DAE603wnq6g/42/0/0001-21140282495.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220312%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220312T181502Z&X-Amz-Expires=39743&X-Amz-Signature=ee4de8968c5c84370d41c855c4266dfde25316edf8884e274f68bbe5a4e9a245&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Dise%25C3%25B1o%2520sin%2520t%25C3%25ADtulo.png&response-expires=Sun%2C%2013%20Mar%202022%2005%3A17%3A25%20GMT"  
+         width="1300px" height="500px align="right">
+
+          <h1>Decoraciones</h1>
+          <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+          <label for="topping1">Cake Topper Letrero Adorno Pastel</label><br>
+          <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+          <label for="topping2">Flores </label><br>
+          <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+          <label for="topping3">Frutos rojos</label><br>
+          <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+          <label for="topping1">Diseño pasta de azucar</label><br>
+         <hr> 
+        </article>
+        
+    </section>
+    <footer>
+        <h1>Contáctanos</h1>
+        <ul>
+                    <p>Dirección<br><a>Avenida Miguel Hidalgo #99, col.Xamaipak,Tuxtla Gutierrez Chiapas</a></p>
+                   <p>Teléfono<br><a>9614435798</a></p>
+                   <p>Correo<br><a>Pasteligena@gmail.com</a></p>
+                   <p>Horarios<br><a>Lu-Vi 9:00am - 4:00pm sab 10:00am - 4:00pm</a></p>    
+        </ul>
+    </footer>
+</body>
+</html>
